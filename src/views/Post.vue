@@ -1,12 +1,15 @@
 <script setup>
 
+import TwoInOne from '../components/TwoInOne.vue';
+import home from '../assets/images/home.jpg';
 </script>
 
 <template>
     <div>
-        <h1 class="text-3xl"> Post Page </h1>
+        <TwoInOne :name="'Grow Your Bussiness with'" :imgsrc="home" vist="'/about" :btnName=" 'Services'"/>
     </div>
 </template>
- <style>
+
+<style scoped>
 
 </style>
