@@ -3,7 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../views/Home.vue';
 import About from '../views/About.vue';
 import Contact from '../views/Contact.vue';
-import Post from '../views/Post.vue';
+import Services from '../views/Services.vue';
 
 //Define Routes, Each route should map to a component
 
@@ -26,9 +26,9 @@ const routes =[
     },
         
 {
-    path:'/post',
-    name:'post',
-    component:Post  
+    path:'/services',
+    name:'services',
+    component:Services  
 }
     
 ]

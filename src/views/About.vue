@@ -5,7 +5,7 @@ import home from '../assets/images/home.jpg';
 
 <template>
     <div>
-        <TwoInOne :name="'Welcome to about page'" :imgsrc="home" vist="'/post" :btnName=" 'Read More'"/>
+        <TwoInOne :name="'Welcome to about page'" :imgsrc ="home" :visit="'/services'" :btnName=" 'Services'"/>
     </div>
 </template>
 
