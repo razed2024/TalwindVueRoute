@@ -21,7 +21,7 @@
         <router-link to="/" class-slate-500 py-5 hover:text-slate-700 text-xl font-medium> Home </router-link>
         <router-link to="/about" class-slate-500 py-5 hover:text-slate-700 text-xl font-medium> About </router-link>
         <router-link to="/contact" class-slate-500 py-5 hover:text-slate-700 text-xl font-medium> Contact </router-link>
-        <router-link to="/post" class-slate-500 py-5 hover:text-slate-700 text-xl font-medium> Post </router-link>
+        <router-link to="/services" class-slate-500 py-5 hover:text-slate-700 text-xl font-medium> Services </router-link>
     </nav>
     
     <div class="text-4xl text-black cursor-pointer md:hidden z-20 " @click="menuOpen">
